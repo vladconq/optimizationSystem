@@ -1,0 +1,20 @@
+td.CalendarDay {
+  padding: 0;
+}
+
+.DateRangePickerInput__withBorder {
+  border: 0px;
+}
+
+.DateRangePickerInput {
+  background-color: whitesmoke;
+}
+
+.DateInput {
+  background: inherit;
+  width: auto;
+}
+
+.DateRangePicker_picker {
+    z-index: 999;
+}

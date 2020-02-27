@@ -1,0 +1,292 @@
+.adminpage ._dash-loading-callback {
+  font-family: sans-serif;
+  padding-top: 50px;
+  color: rgb(90, 90, 90);
+
+  -webkit-animation: fadein 0.5s ease-in 7s forwards; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 0.5s; /* Firefox < 16 */
+      -ms-animation: fadein 0.5s; /* Internet Explorer */
+       -o-animation: fadein 0.5s; /* Opera < 12.1 */
+          animation: fadein 0.5s ease-in 7s forwards;
+
+  /* The banner */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  cursor: progress;
+}
+
+body {
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+.main {
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    letter-spacing: 0.3px;
+    font-size: 18px;
+}
+
+.header {
+    display: table;
+    width: 100%;
+    background-color: #455066;
+    box-shadow: rgb(100, 100, 100, 0.1) 5px 5px 5px 0px;
+}
+
+.header .left {
+    display: table-cell;
+    width: 20%;
+    vertical-align: middle;
+    padding-left: 2%;
+}
+
+.header .left .logo {
+    height: 90px;
+    float: left;
+}
+
+.header .middle {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.header .middle .text {
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.header .right {
+    display: table-cell;
+    width: 20%;
+    vertical-align: middle;
+    padding-right: 2%;
+}
+
+.header .right .auth{
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    float: right;
+}
+
+a:-webkit-any-link {
+    text-transform: uppercase;
+    color: deepskyblue;
+    cursor: pointer;
+    text-underline-position: under;
+}
+
+.adminpage .admin-input {
+    display: flex;
+}
+
+.adminpage .admin-input .left {
+    width: 50%;
+}
+
+.adminpage .admin-input .right {
+    width: 50%;
+    align-self: center;
+}
+
+.adminpage .total-messages {
+    display: flex;
+    margin-top: 0.5%;
+}
+
+.adminpage .total-messages .left{
+    width: 50%;
+    margin-right: 0.2%;
+}
+
+.adminpage .total-messages .right{
+    width: 50%;
+    margin-left: 0.2%;
+}
+
+.adminpage .total-messages .left .text {
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    margin-bottom: 0.2%;
+    border: thin lightgrey solid;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.adminpage .total-messages .right .text {
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    margin-bottom: 0.2%;
+    border: thin lightgrey solid;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.adminpage .yields {
+    margin-top: 0.5%;
+    display: flex;
+}
+
+.adminpage .yields .left {
+    width: 50%;
+    margin-right: 0.2%;
+}
+
+.adminpage .yields .right {
+    width: 50%;
+    margin-left: 0.2%;
+}
+
+.adminpage .dropdown {
+    margin-top: 0.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.adminpage .dropdown .text {
+    text-align: end;
+    margin-right: 0.5%;
+}
+
+.adminpage .set-points {
+    margin-top: 0.5%;
+    margin-bottom: 2%;
+}
+
+.adminpage .set-points .messages {
+    display: flex;
+}
+
+.adminpage .set-points .messages .left{
+    width: 50%;
+    margin-right: 0.2%;
+}
+
+.adminpage .set-points .messages .right{
+    width: 50%;
+    margin-left: 0.2%;
+}
+
+.adminpage .set-points .messages .left .text {
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    margin-bottom: 0.2%;
+    border: thin lightgrey solid;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.adminpage .set-points .messages .right .text {
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    margin-bottom: 0.2%;
+    border: thin lightgrey solid;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.adminpage .set-points .figure {
+    margin-top: 0.5%;
+}
+
+.operatorpage {
+    margin-top: 1%;
+}
+
+.operatorpage .times {
+    display: flex;
+}
+
+.operatorpage .times .left {
+    width: 50%;
+}
+
+.operatorpage .times .right {
+    width: 50%;
+}
+
+.operatorpage .times .left .time {
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    margin-right: 0.2%;
+    margin-bottom: 0.2%;
+    border: thin lightgrey solid;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.operatorpage .times .right .reporting-time {
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    margin-right: 0.2%;
+    margin-top: 0.2%;
+    border: thin lightgrey solid;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.operatorpage .checklist {
+    margin-top: 0.5%;
+}
+
+.operatorpage .table-immutable {
+    margin-bottom: 0.5%;
+}
+
+.operatorpage .metrics {
+    display: flex;
+}
+
+.operatorpage .metrics .left {
+    width: 50%;
+}
+
+.operatorpage .metrics .right {
+    width: 50%;
+}
+
+.operatorpage .metrics .left .predict {
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    margin-right: 0.2%;
+    margin-bottom: 0.2%;
+    border: thin lightgrey solid;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.operatorpage .metrics .right .optimal {
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    margin-right: 0.2%;
+    margin-top: 0.2%;
+    border: thin lightgrey solid;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+.operatorpage .figure {
+    margin-top: 0.5%;
+    margin-left: 0.2%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: thin lightgrey solid;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 2%;
+}
+
+
